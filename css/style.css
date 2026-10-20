@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(180, 228, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(36, 36, 103);
+}
+
+#headder-section {
+    padding: 20px;
+    margin: 15px;
+    background-color: rgb(59, 59, 194);
+    color: aliceblue;
+}
+
+#inscricao {
+    padding: 20px;
+    background-color: aliceblue;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(184, 26, 26);
+    color: aliceblue;
+}
+
+input, select {
+    padding: 10px;
+    width: 100%;
+}
+
+.opcao {
+   width: 20px;
+    gap: 10px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+}
+
+button {
+    width: 100%;
+}
+
+input, button, select, textarea {
+    border: 1px solid;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 15px;
+    background-color: rgb(59, 59, 194);
+    color: aliceblue;
+}
